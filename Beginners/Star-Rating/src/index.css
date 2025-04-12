@@ -1,0 +1,73 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background: #000;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+}
+.vintage-car-wrapper {
+  width: 100%;
+  perspective: 10000px;
+  perspective-origin: left;
+}
+.vintage-car {
+  transition: transform 3s ease-in-out;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  display: inline-block;
+  transform: translateZ(1000px) rotateY(0deg); /* Initial state */
+}
+.vintage-car:hover {
+  transform: translateZ(1000px) rotateY(180deg); /* Hover state */
+}
+.star-wrapper {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+}
+.star-text {
+  font-size: 16px;
+  color: #fff;
+}
+.star-box {
+  display: flex;
+  justify-content: center;
+}
+.star-rating {
+  cursor: pointer;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

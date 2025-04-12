@@ -1,0 +1,87 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  font-size: 16px;
+  min-width: 320px;
+  min-height: 100vh;
+  background: rgb(98 93 245 / 66%);
+  background: #0069b9;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 5vh;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+ul.accordion-tab {
+  width: 60vw;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: 2px solid greenyellow;
+  border-radius: 16px;
+}
+.accordion-tab h3 {
+  cursor: pointer;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+  color: #00ff6b;
+}
+.accordion-tab li {
+  padding: 10px 20px;
+  margin: 10px auto 20px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+.accordion-tab li:last-child {
+  border-bottom: 1px solid transparent;
+}
+.accordion-tab li p {
+  font: italic normal 2em Georgia, serif;
+  color: #ffff36;
+}
+.quote-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease, opacity 0.3s ease;
+}
+.quote-content.open {
+  min-height: 10vh;
+  max-height: 40vh; /* Adjust as needed or make dynamic with JS for better UX */
+  opacity: 1;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
