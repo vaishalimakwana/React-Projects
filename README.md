@@ -19,4 +19,4 @@
 
 ## 5. Recipe Search App
 
-![Recipe Search App Preview](/public/Recipe-Preview.png)
+![Recipe Search App Preview](Beginners/Recipe-Search-App/public/Recipe-Preview.png)
