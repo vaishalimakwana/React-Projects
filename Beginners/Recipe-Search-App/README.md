@@ -2,7 +2,7 @@
 
 ## 🥘 Instant Recipe Finder App
 
-![Recipe Search App Preview](Beginners/Recipe-Search-App/public/Recipe-Preview.png)
+![Recipe Search App Preview](public/Recipe-Preview.png)
 
 A recipe search app that allows users to find recipes by name and explore detailed information such as ingredients, preparation time, servings, and more. Built using **React.js** and styled with custom **CSS**.
 
