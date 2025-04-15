@@ -1,12 +1,50 @@
-# React + Vite
+# Built with - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ⭐ Star Rating UI with 3D Vintage Car Animation
 
-Currently, two official plugins are available:
+![Star Rating Preview](https://github.com/user-attachments/assets/09933651-b83d-413c-9c55-9b2d649ef2f3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a stylish and interactive React component that allows users to rate an image using a star-based rating system. It also includes a 3D hover animation effect on a vintage car image, providing a modern and visually appealing user experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- ⭐ Star rating system (1 to 5 stars)
+- ⭐ Hover and click effects for rating
+- 🚗 3D image flip animation on hover using CSS
+- 🎨 Responsive design and dark mode support
+- ⚡ Smooth interaction using `useState` and conditional rendering
+
+---
+
+## 🧠 How It Works
+
+### ⭐ Star Rating Logic
+
+- An array `[1, 2, 3, 4, 5]` represents each star.
+- When a user hovers over a star, it highlights all previous stars.
+- Clicking a star sets the selected rating (`select` state).
+- Clicking the same star again will deselect it (toggle).
+
+### 🚗 Vintage Car Animation
+
+- The image is wrapped in a `div` with CSS properties:
+  - `perspective`: Gives a 3D viewpoint.
+  - `transform-style: preserve-3d`: Maintains 3D transformations.
+  - `transform: rotateY`: Rotates the image 180° on hover.
+- The transition is smoothened with `ease-in-out` and lasts `3s`.
+
+---
+
+# 📄 License
+
+MIT License
+Copyright (c) 2025 Vaishali Makwana
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+
+# 👩‍💻 Author
+
+Vaishali Makwana
+🌐 www.vaishalimakwana.com
+📧 vaishali@vaishalimakwana.com

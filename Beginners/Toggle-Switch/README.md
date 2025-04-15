@@ -1,12 +1,61 @@
-# React + Vite
+# Built with - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💡 Toggle Bulb & Hanging Lights Switch UI
 
-Currently, two official plugins are available:
+![Toggle Switch Preview](https://github.com/user-attachments/assets/94a9f108-5c6e-4e4a-8856-e2c098204e5b)
+![Toggle Switch Preview](https://github.com/user-attachments/assets/2cf3f448-ca7f-40b1-8c9d-b6e79d76a830)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a creative and interactive React project that simulates toggling between a **bulb** and **hanging lights** using a **switch-style UI**. You can flip between the two modes and turn them on or off with grayscale filter effects.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Toggle between **Bulb mode** and **Hanging Lights mode**
+- Interactive switch button to turn lights ON/OFF
+- Uses **CSS grayscale filters** to simulate light OFF/ON effect
+- Clean, switchable UI state management using React's `useState`
+
+---
+
+## 🛠 Tech Stack
+
+### 📦 Assets
+
+- **PNG images** for switch toggles (on/off)
+- **Two image placeholders**: one for bulb and one for hanging lights (CSS-based)
+
+---
+
+## 🧠 How It Works
+
+### 🔌 Switch Mechanics
+
+- The app uses **three React states**:
+  - `isOn` – to toggle the bulb ON/OFF
+  - `isActive` – to toggle the hanging lights ON/OFF
+  - `hide` – to switch between Bulb or Hanging Lights mode
+
+### 🎨 Visual Effects
+
+- **Bulb and Hanging Lights** are represented with styled `div` blocks.
+- A grayscale filter is applied when the light is off, and removed when on:
+
+  ```js
+  style={{ filter: isOn ? 'grayscale(0)' : 'grayscale(100%)' }}
+
+  ```
+
+---
+
+# 📄 License
+
+MIT License
+Copyright (c) 2025 Vaishali Makwana
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+
+# 👩‍💻 Author
+
+Vaishali Makwana
+🌐 www.vaishalimakwana.com
+📧 vaishali@vaishalimakwana.com

@@ -1,12 +1,56 @@
-# React + Vite
+# Built with - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Accordion
 
-Currently, two official plugins are available:
+![Accordion Preview](https://github.com/user-attachments/assets/f60f1de3-76d9-4811-8a66-2773149283cf)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📚 Quotes Accordion App
 
-## Expanding the ESLint configuration
+A simple and elegant React component that displays famous quotes fetched from a public API using an accordion interface. Users can expand and collapse quotes by clicking on the author's name.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### API example:
+
+{
+"id": 1,
+"quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+"author": "Nelson Mandela"
+}
+
+---
+
+## ✨ Features
+
+- 🔁 Fetches quotes from the [DummyJSON Quotes API](https://dummyjson.com/quotes)
+- 🎛 Interactive accordion functionality to show/hide quotes
+- 📜 Displays author names and their respective quotes
+- ⚠️ Handles loading and error states gracefully
+
+---
+
+## 🚀 How It Works
+
+- On component mount, it makes a `fetch` request to `https://dummyjson.com/quotes`.
+- The quotes are displayed in an expandable list format.
+- Clicking an author toggles the visibility of their quote.
+- Only one quote is shown at a time; clicking the same author again collapses it.
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (with Hooks: `useState`, `useEffect`)
+- Basic **CSS** for styling the accordion (you can add your own styles)
+
+---
+
+# 📄 License
+
+MIT License
+Copyright (c) 2025 Vaishali Makwana
+Permission is hereby granted, free of charge, to any person obtaining a copy...
+
+# 👩‍💻 Author
+
+Vaishali Makwana
+🌐 www.vaishalimakwana.com
+📧 vaishali@vaishalimakwana.com
