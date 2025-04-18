@@ -20,3 +20,9 @@
 ## 5. Recipe Search App
 
 ![Recipe Search App Preview](Beginners/Recipe-Search-App/public/Recipe-Preview.png)
+
+# Advanced Projects:
+
+## 1. Pet Ecommerce Store
+![image](https://github.com/user-attachments/assets/a12c7a75-6686-4117-8873-73e6b340ea69)
+
