@@ -1,0 +1,48 @@
+let clothing_collection = [
+  {
+    id: 1,
+    name: 'Blue shirt',
+    category: 'dog',
+    image: './src/assets/product-1.jpg',
+    image1: './src/assets/product-1.jpg',
+    image2: './src/assets/product-1.jpg',
+    image3: './src/assets/product-1.jpg',
+    new_price: 85.0,
+    old_price: 120.5,
+  },
+  {
+    id: 2,
+    name: 'Red Pull Over',
+    category: 'dog',
+    image: './src/assets/product-2.jpg',
+    image1: './src/assets/product-2.jpg',
+    image2: './src/assets/product-2.jpg',
+    image3: './src/assets/product-2.jpg',
+    new_price: 85.0,
+    old_price: 120.5,
+  },
+  {
+    id: 3,
+    name: 'Pink flare dress',
+    category: 'dog',
+    image: './src/assets/product-3.jpg',
+    image1: './src/assets/product-3.jpg',
+    image2: './src/assets/product-3.jpg',
+    image3: './src/assets/product-3.jpg',
+    new_price: 85.0,
+    old_price: 120.5,
+  },
+  {
+    id: 4,
+    name: 'Striped and Blue T-shirt',
+    category: 'dog',
+    image: './src/assets/product-4.jpg',
+    image1: './src/assets/product-4.jpg',
+    image2: './src/assets/product-4.jpg',
+    image3: './src/assets/product-4.jpg',
+    new_price: 100.0,
+    old_price: 150.0,
+  },
+];
+
+export default clothing_collection;
