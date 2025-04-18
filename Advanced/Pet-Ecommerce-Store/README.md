@@ -4,6 +4,15 @@
 
 An elegant and fully responsive pet e-commerce web app built using **React**, **React Router**, and **Tailwind CSS**. This store allows users to browse various categories of pet products including Food & Treats, Health & Grooming, Toys & Accessories, and Clothing.
 
+![image](https://github.com/user-attachments/assets/ae914aa9-a23d-4dda-9fe1-868434207d90)
+![image](https://github.com/user-attachments/assets/d46012cb-8c6e-44e9-9dc8-1af1e66d318a)
+![image](https://github.com/user-attachments/assets/dc68eab3-1eef-46e6-8d6f-9646f328f3a2)
+
+![image](https://github.com/user-attachments/assets/6d48dab8-9729-43db-b013-384433f51161)
+![image](https://github.com/user-attachments/assets/c6eeaefa-bff0-4a84-a027-a05e85b0aef3)
+
+
+
 ---
 
 ## 🌟 Features
