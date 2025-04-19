@@ -53,7 +53,7 @@ src
 - **React Router DOM**
 - **Tailwind CSS**
 - **Context API**
-- **Vite** (assumed based on structure)
+- **Vite** 
 - **ESLint + Prettier** (recommended)
 
 ---
