@@ -5,7 +5,7 @@ import Toys from './Toys';
 
 const ToysProducts = () => {
   const { all_products } = useContext(Shopcontext);
-  const toys = all_products.filter((product) => product.category === 'Toy');
+  const toys = all_products.filter((product) => product.category === 'Toys');
   return (
     <div>
       <div className="mx-auto max-w-2xl px-4 py-16 sm:pt-24 lg:max-w-7xl lg:px-8">

@@ -1,12 +1,21 @@
 import React from 'react';
 import { FaUserCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
+  const location = useLocation();
+
+  useEffect(() => {
+    setShowMenu(false);
+  }, [location.pathname, setShowMenu]);
   return (
     <div
       className={`${
         showMenu ? 'left-0' : 'left-[100%]'
-      } fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-white px-8 pb-6 pt-16 text-black md:hidden rounded-r-xl shadow-md`}
+      } fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col 
+      justify-between bg-white px-8 pb-6 pt-16 text-black md:hidden 
+      rounded-r-xl shadow-md`}
     >
       <div>
         <div className="flex items-center justify-start gap-3">
@@ -19,19 +28,74 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
         <nav className="mt-12">
           <ul className="flex flex-col space-y-4 text-xl">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? 'text-brandnamecolor'
+                      : 'hover:text-brandnamecolor transition'
+                  }   pb-4`
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/shopbybreed">Shop by Breed</Link>
+              <NavLink
+                to="/dogclothing"
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? 'text-brandnamecolor'
+                      : 'hover:text-brandnamecolor transition'
+                  }   pb-4`
+                }
+              >
+                Dog Clothing
+              </NavLink>
             </li>
             <li>
-              <Link to="/foodandtreats">Food & Treats</Link>
+              <NavLink
+                to="/foodandtreats"
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? 'text-brandnamecolor'
+                      : 'hover:text-brandnamecolor transition'
+                  }   pb-4`
+                }
+              >
+                Food & Treats
+              </NavLink>
             </li>
             <li>
-              <Link to="/toysandaccessories">Toys & Accessories</Link>
+              <NavLink
+                to="/toysandaccessories"
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? 'text-brandnamecolor'
+                      : 'hover:text-brandnamecolor transition'
+                  }   pb-4`
+                }
+              >
+                Toys & Accessories
+              </NavLink>
             </li>
             <li>
-              <Link to="/healthandgrooming">Health & Grooming</Link>
+              <NavLink
+                to="/healthandgrooming"
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? 'text-brandnamecolor'
+                      : 'hover:text-brandnamecolor transition'
+                  }   pb-4`
+                }
+              >
+                Health & Grooming
+              </NavLink>
             </li>
             <li>
               <Link to="/login">
