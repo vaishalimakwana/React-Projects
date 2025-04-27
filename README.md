@@ -34,7 +34,7 @@
 ## 6: Quotes Generator 
 ![image](https://github.com/user-attachments/assets/57ce58b2-c794-406e-9e63-ad2b02b3ef14)
 
-### Demo: to be updated
+### Demo: https://lite-quotes-generator.netlify.app/
 
 ## 7: Product Search
 ![image](https://github.com/user-attachments/assets/70b48089-9c82-4849-9de6-531d4895910b)
@@ -44,7 +44,7 @@
 ## 8: Weather App
 ![image](https://github.com/user-attachments/assets/0d4070f8-0641-49ed-8b6d-a3775df11159)
 
-### Demo: to be updated
+### Demo: https://lite-weather-forecast.netlify.app/
 
 # Advanced Projects:
 
