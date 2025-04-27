@@ -29,9 +29,7 @@ const Weather = () => {
       }
     } catch (error) {
       setError(`Error Fetching City ${error}`);
-      console.log('Error Fetching data', error);
     }
-    console.log('Fetching weather for city', city);
   };
   const enterBtn = (event) => {
     if (event.key === 'Enter') {
@@ -40,7 +38,7 @@ const Weather = () => {
   };
   return (
     <div>
-      <h2 style={{ padding: '2em 2em .8em', fontSize: '3em' }}>
+      <h2 style={{ padding: '1em 1em 0.8em', fontSize: '2.5em' }}>
         Weather Forecast
       </h2>
       <div className="searchBox">

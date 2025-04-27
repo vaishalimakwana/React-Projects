@@ -48,29 +48,31 @@ body {
 .searchBox {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 .searchBox input {
-  border: 1px solid #c047cf;
+  border: none;
   outline: none;
-  padding: 1.2em 0.8em;
-  width: 50em;
-  font-size: 2em;
+  padding: 0.8em;
+  width: 30em;
+  font-size: 1.2em;
 }
 .searchBox input:focus {
-  outline: #535bf2;
+  outline: none;
 }
 .searchBox button {
   background-color: #000;
   color: #fff;
   border: none;
   padding: 0.8em;
-  width: 15em;
-  font-size: 1.8em;
+  width: 10em;
+  font-size: 1.2em;
   cursor: pointer;
 }
 .weatherBox {
-  padding: 2em;
-  font-size: 2em;
+  padding: 1.2em;
+  font-size: 1.2em;
 }
 .weatherBox p {
   padding-bottom: 0.8em;
