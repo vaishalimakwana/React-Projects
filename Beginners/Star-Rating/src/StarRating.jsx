@@ -7,10 +7,10 @@ import vintageCar from './assets/vintage-car.png';
 export default function StarRating() {
   const stars = [1, 2, 3, 4, 5];
   const [hover, setHover] = useState(null);
-  const [select, setSelect] = useState(null);
+  const [selectStar, setSelectStar] = useState(null);
 
-  function selectStar(star) {
-    setSelect(select === star ? null : star);
+  function clickStar(star) {
+    setSelectStar(selectStar === star ? null : star);
   }
   return (
     <div>
@@ -22,10 +22,10 @@ export default function StarRating() {
               key={star}
               onMouseEnter={() => setHover(star)}
               onMouseLeave={() => setHover(null)}
-              onClick={() => selectStar(star)}
+              onClick={() => clickStar(star)}
               className="star-rating"
             >
-              {hover >= star || select >= star ? (
+              {(hover !== null ? hover : selectStar) >= star ? (
                 <MdOutlineStar size={50} color="gold" />
               ) : (
                 <MdOutlineStarBorder size={50} color="gold" />
