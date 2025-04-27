@@ -6,15 +6,16 @@ export default function Toggle_Bulb() {
   const [isOn, setIsOn] = useState(false);
   const [isActive, setIsActive] = useState(false);
   const [hide, setHide] = useState(false);
-  function toggleSwitch() {
-    setIsOn(!isOn);
-  }
-  function toggleLights() {
-    setIsActive(!isActive);
-  }
-  function changeImage() {
-    setHide(!hide);
-  }
+
+  const toggleSwitch = () => {
+    setIsOn((prevstate) => !prevstate);
+  };
+  const toggleLights = () => {
+    setIsActive((prevstate) => !prevstate);
+  };
+  const changeImage = () => {
+    setHide((prevstate) => !prevstate);
+  };
   return (
     <div className="main-container">
       {hide ? (
