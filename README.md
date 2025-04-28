@@ -46,6 +46,11 @@
 
 ### Demo: https://lite-weather-forecast.netlify.app/
 
+## 9: Calculator Lite
+![image](https://github.com/user-attachments/assets/90cd9579-bcd2-472f-a943-ccad7790f090)
+
+### Demo: https://lite-calculator.netlify.app/
+
 # Advanced Projects:
 
 ## 1. Pet Ecommerce Store
